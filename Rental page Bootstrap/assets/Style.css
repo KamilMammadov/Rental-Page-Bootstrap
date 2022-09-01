@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+header .logo{
+    width: 30%;
+}
+
+header .logo a{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+header .links a{
+    margin-left: 30px;
+    font-size: 18px;
+    color: #737373;
+}
+
+header .links .btn{
+    margin-left: 90px;
+    background-color: #0061f2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+#Rent{
+  background-image: url(https://source.unsplash.com/R-LK3sqLiBw/1600x1200);
+    background-position: center;
+    background-size: cover;
+  padding: 20rem 0;
+  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 74%, 80% 90%, 50% 100%, 20% 90%, 0 74%, 0% 35%, 0 1%);
+}
+
+#Rent .rental {
+    text-align: center; 
+}
+
+#Rent .rental .top h1{
+    font-size: 40px;
+}
+#Rent .rental .top p{
+    font-size: 20px;
+    color: #69707A;
+}
+
+#Rent .rental .bottom{
+    padding-top: 30px;
+}
+#Rent .rental .bottom a{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#Rent .rental .bottom .btn{
+background-color: #0061f2;
+padding: 10px 20px;
+border-radius: 9px;
+transition: .5s;
+}
+#Rent .rental .bottom .btn:hover{
+    background-color: #104494;
+}
+
+#About{
+    padding: 3rem 1rem;
+}
+
+#About .interior{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#About .interior .box{
+   width: 27%; 
+   border: 1px solid #f0f2f5;
+   box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%);
+    transition: .5s;
+}
+
+#About .interior .box:hover{
+
+    box-shadow: 20px 0rem 8rem 0px rgb(33 40 50 / 25%);
+}
+
+#About .interior .box .top img{
+    width: 100%;
+}
+
+#About .interior .box .bottom{
+    padding: 19px 56px 29px 21px;
+}
+
+#About .interior .box .bottom h4{
+    font-size: 20px;
+}
+#About .interior .box .bottom p{
+    font-size: 18px;
+}
+
+#About .interior .box .more{
+    border: 1px solid #e2e6eb;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #0061f2;
+}
+#About .interior .box .more a{
+    color: #0061f2;
+}
+
+#questions{
+    padding-top: 3rem;
+}
+#questions .quesbar .top{
+    text-align: center;
+}
+#questions .quesbar .bottom{
+    padding: 1rem 5rem;
+
+}
+
+#questions .quesbar .bottom .box{
+    border: 1px solid #e2e6eb;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#questions .quesbar .bottom .box p{
+    color: #69707A;
+}
+
+
+#book{
+    margin-top: 100px;
+    padding: 20rem 8rem;
+    background-image: url(https://source.unsplash.com/BlIhVfXbi9s/1600x800);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+
+}
+
+#book .ready p{
+font-size: 80px;
+}
+#book .ready a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0061f2;
+    padding: 10px;
+    border-radius: 9px;
+    transition: .5s;
+}
+
+#book .ready a:hover
+{
+    background-color: #1550a8;
+}
+
+#comments{
+    padding: 5rem;
+}
+
+#comments .starcom{
+    display: flex;
+}
+
+#comments .starcom .left{
+    width: 45%;
+    border-right: 1px solid gray;
+    padding-right: 115px;
+}
+#comments .starcom .right{
+    width: 45%;
+    padding-right: 115px;
+}
+#comments .starcom .stars{
+    color: #f4a100;
+}
+#comments .starcom .text{
+    color: #0061f2;
+    font-size: 23px;
+    padding: 2rem 0;
+}
+
+#comments .starcom .profile .bold{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #69707A;
+}
+#comments .starcom .profile .simple{
+    font-size: 18px;
+    
+    color: #69707A;
+}
